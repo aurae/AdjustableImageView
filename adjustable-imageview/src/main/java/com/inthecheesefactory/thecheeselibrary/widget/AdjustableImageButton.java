@@ -2,6 +2,7 @@ package com.inthecheesefactory.thecheeselibrary.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.view.ViewParent;
@@ -10,7 +11,7 @@ import android.widget.ImageButton;
 /**
  * Created by nuuneoi on 2/17/15 AD.
  */
-public class AdjustableImageButton extends ImageButton {
+public class AdjustableImageButton extends AppCompatImageButton {
 
     boolean mAdjustViewBounds;
 

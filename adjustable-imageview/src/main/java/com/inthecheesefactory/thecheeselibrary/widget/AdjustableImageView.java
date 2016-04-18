@@ -2,15 +2,15 @@ package com.inthecheesefactory.thecheeselibrary.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.view.ViewParent;
-import android.widget.ImageView;
 
 /**
  * Created by nuuneoi on 2/17/15 AD.
  */
-public class AdjustableImageView extends ImageView {
+public class AdjustableImageView extends AppCompatImageView {
 
     boolean mAdjustViewBounds;
 
